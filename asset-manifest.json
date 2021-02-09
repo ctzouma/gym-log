@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gym-log/static/css/main.c0a08c84.chunk.css",
-    "main.js": "/gym-log/static/js/main.7ca67211.chunk.js",
-    "main.js.map": "/gym-log/static/js/main.7ca67211.chunk.js.map",
+    "main.css": "/gym-log/static/css/main.22bec810.chunk.css",
+    "main.js": "/gym-log/static/js/main.11560e47.chunk.js",
+    "main.js.map": "/gym-log/static/js/main.11560e47.chunk.js.map",
     "runtime-main.js": "/gym-log/static/js/runtime-main.1567b67d.js",
     "runtime-main.js.map": "/gym-log/static/js/runtime-main.1567b67d.js.map",
-    "static/js/2.ae03ca46.chunk.js": "/gym-log/static/js/2.ae03ca46.chunk.js",
-    "static/js/2.ae03ca46.chunk.js.map": "/gym-log/static/js/2.ae03ca46.chunk.js.map",
+    "static/js/2.439fc5f5.chunk.js": "/gym-log/static/js/2.439fc5f5.chunk.js",
+    "static/js/2.439fc5f5.chunk.js.map": "/gym-log/static/js/2.439fc5f5.chunk.js.map",
     "index.html": "/gym-log/index.html",
-    "static/css/main.c0a08c84.chunk.css.map": "/gym-log/static/css/main.c0a08c84.chunk.css.map",
-    "static/js/2.ae03ca46.chunk.js.LICENSE.txt": "/gym-log/static/js/2.ae03ca46.chunk.js.LICENSE.txt"
+    "static/css/main.22bec810.chunk.css.map": "/gym-log/static/css/main.22bec810.chunk.css.map",
+    "static/js/2.439fc5f5.chunk.js.LICENSE.txt": "/gym-log/static/js/2.439fc5f5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1567b67d.js",
-    "static/js/2.ae03ca46.chunk.js",
-    "static/css/main.c0a08c84.chunk.css",
-    "static/js/main.7ca67211.chunk.js"
+    "static/js/2.439fc5f5.chunk.js",
+    "static/css/main.22bec810.chunk.css",
+    "static/js/main.11560e47.chunk.js"
   ]
 }

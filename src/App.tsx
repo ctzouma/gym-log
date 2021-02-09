@@ -1,20 +1,16 @@
-import React, { useState } from 'react';
+import AppHeader from './header/AppHeader'
+import ExercisePage from './exercise/ExercisePage';
+import { useLocalStorage } from './hooks/useLocalStorage';
+import { exerciseListKey } from './keys';
 import './App.scss';
-import Input from './input';
-import ExerciseList from './exercise-list/ExerciseList'
 
 function App() {
-  const [exercises, setExercises] = useState([] as Array<string>);
+  const [exercises, setExercises] = useLocalStorage<Exercise[]>(exerciseListKey, []);
 
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Gym log
-        </p>
-      </header>
-      <ExerciseList exercises={exercises}/>
-      <Input onAddExercise={(exercise: string) => { if (exercise.length) setExercises(exercises => [...exercises, exercise]) }}/>
+      <AppHeader></AppHeader>
+      <ExercisePage exercises={exercises} onAddExercise={ex => setExercises([...exercises, ex])}></ExercisePage>
     </div>
   );
 }
